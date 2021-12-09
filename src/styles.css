@@ -1,0 +1,149 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#geolocation {
+  display: block;
+  border: 1px solid #b0adb2;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: all 200ms ease;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#geolocation:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  border: 1px solid #b0adb2;
+  box-shadow: 6px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+button {
+  background: transparent;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#search {
+  font-size: 20px;
+}
+
+.fa-search {
+  font-size: 25px;
+}
+
+.city-and-date {
+  padding: 30px;
+  margin: 10px 0 25px 0;
+}
+
+.five-days,
+.five-day-icons,
+.five-day-temperature {
+  line-height: 15px;
+  margin: 20px auto;
+}
+
+.temperature {
+  font-size: 60px;
+  text-align: center;
+}
+
+.convert {
+  font-size: 15px;
+  text-align: center;
+}
+
+.weathericon {
+  font-size: 60px;
+  text-align: center;
+}
+
+.precipitation-and-description {
+  margin: 50px 0 0 0;
+}
+
+.precipitation-and-wind {
+  text-align: center;
+}
+
+.precipitation,
+.wind {
+  font-size: 22px;
+}
+
+.description {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-size: 28px;
+  transition: all 200ms ease-in-out;
+}
+
+.weather-forecast {
+  letter-spacing: 0.2rem;
+  font-size: 25px;
+  transition: all 200ms ease-in-out;
+}
+
+.fa-headphones-alt {
+  font-size: 25px;
+}
+
+.playlist-recommandation {
+  letter-spacing: 0.2rem;
+  font-size: 22px;
+  margin: 50px auto;
+  padding: 10px 10px 20px 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.weather-playlist:hover {
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hour-weather:hover {
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.five-day-forecast:hover {
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.five-days {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.five-day-temperature {
+  font-size: 18px;
+}
