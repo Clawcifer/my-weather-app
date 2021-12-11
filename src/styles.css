@@ -27,12 +27,13 @@ li {
 
 a {
   color: black;
+  font-weight: 400;
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
 
 a:hover {
-  font-weight: 400;
+  color: black;
   text-decoration: underline;
   cursor: pointer;
 }
