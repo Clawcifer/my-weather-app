@@ -41,9 +41,13 @@ li {
   font-size: 20px;
 }
 
-.weather-app {
+#coder {
+  line-height: 2;
+}
+
+.container {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 .fa-search {
@@ -65,11 +69,6 @@ li {
   text-align: center;
 }
 
-.weathericon {
-  font-size: 60px;
-  text-align: center;
-}
-
 .precipitation-and-description {
   margin: 50px 0 0 0;
 }
@@ -81,6 +80,11 @@ li {
 .precipitation,
 .wind {
   font-size: 18px;
+}
+
+.weather-icon {
+  font-size: 60px;
+  text-align: center;
 }
 
 .description {
