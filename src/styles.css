@@ -87,6 +87,12 @@ li {
   text-align: center;
 }
 
+.weather-icon img {
+  position: relative;
+  top: -14px;
+  right: 2px;
+}
+
 .description {
   text-align: center;
   letter-spacing: 0.2rem;
