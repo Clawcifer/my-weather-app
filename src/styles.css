@@ -50,13 +50,14 @@ li {
   margin: 10px auto;
 }
 
-.fa-search {
+.fa-search,
+.fa-map-marker-alt {
   font-size: 25px;
 }
 
 .city-and-date {
   padding: 30px;
-  margin: 10px 0 25px 0;
+  margin: 0 0 25px 0;
 }
 
 .temperature {
@@ -91,6 +92,7 @@ li {
   position: relative;
   top: -14px;
   right: 2px;
+  width: 95px;
 }
 
 .description {
@@ -101,15 +103,16 @@ li {
 }
 
 .weather-forecast {
+  text-align: center;
   letter-spacing: 0.2rem;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   transition: all 200ms ease-in-out;
 }
 
 .weather-forecast-max {
   font-size: 11px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .weather-forecast-min {

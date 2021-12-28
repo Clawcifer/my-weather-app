@@ -102,10 +102,7 @@ function showWeatherConditions(response) {
     response.data.weather[0].main;
   document
     .querySelector("#icon")
-    .setAttribute(
-      "src",
-      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-    );
+    .setAttribute("src", `images/${response.data.weather[0].icon}.svg`);
   document
     .querySelector("#icon")
     .setAttribute("alt", response.data.weather[0].description);
