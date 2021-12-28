@@ -127,4 +127,18 @@ function showCity(event) {
 let form = document.querySelector("form");
 form.addEventListener("submit", showCity);
 
+function findCurrentPosition(position) {
+  let apiKey = "c37526e7df4d92dc9f8f999d7f534bb7";
+  let lat = position.coords.latitude;
+  let lon = position.coords.longitude;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
+  axios.get(apiUrl).then(showWeatherConditions);
+}
+function showPosition(event) {
+  event.preventDefault();
+  navigator.geolocation.getCurrentPosition(findCurrentPosition);
+}
+let gpsButton = document.querySelector("#geolocation");
+gpsButton.addEventListener("click", showPosition);
+
 searchCity("Colmar");
