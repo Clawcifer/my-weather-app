@@ -134,8 +134,9 @@ li {
 .footer a {
   color: #ebebeb;
   text-decoration: none;
+  transition: all 120ms ease-in-out;
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  font-weight: 400;
 }
